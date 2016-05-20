@@ -6,9 +6,19 @@ var Win : GameObject;
 function Start () {
 
 }
+var Points : int;
+var c = 0;
+function Timur(a : int){
+	if(c <a){
+	Points += 10;
+	c++;
+	}
+	else c = 0;
+}
 
 function Update () {
-
+	Timur(10);
+	Debug.Log (Points);
 }
 
 function OnTriggerStay2D (c : Collider2D){

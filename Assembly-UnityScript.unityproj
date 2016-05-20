@@ -50,6 +50,7 @@
      <Compile Include="Assets\PlayerHP.js" />
      <Compile Include="Assets\Split.js" />
      <Compile Include="Assets\WololoMenu.js" />
+     <Compile Include="Assets\WololoScreen.js" />
      <Compile Include="Assets\randomscreeflick.js" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/PROGRAM FILES/UNITY/EDITOR/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
