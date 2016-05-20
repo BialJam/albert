@@ -1,9 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MapMove.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlayerHP.js">
     <Files>
-      <File FileName="Assets\MapMove.js" Line="8" Column="24" />
+      <File FileName="Assets\PlayerHP.js" Line="24" Column="28" />
+      <File FileName="Assets\MapMove.js" Line="1" Column="1" />
       <File FileName="Assets\Split.js" Line="1" Column="1" />
+      <File FileName="Assets\randomscreeflick.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
