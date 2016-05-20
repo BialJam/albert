@@ -16,3 +16,7 @@ function Update()
   Panel2.transform.position.x = -Mathf.Sin(Time.time * speed);
   Panel2.transform.position.y = -Mathf.Sin(Time.time * speed);
 }
+
+function loadLevel(nr : int){
+	Application.LoadLevel(nr);
+}

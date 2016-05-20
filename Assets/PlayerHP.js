@@ -16,13 +16,15 @@ function OnTriggerStay2D (c : Collider2D){
 		HP -= 100;
 		if (HP <= 0){
 			GO.SetActive(true);
+			yield WaitForSeconds (5);
+			Application.LoadLevel(0);
 		}
 	}
 	
 	if(c.name == "finish"){
 			Win.SetActive(true);
 			yield WaitForSeconds (5);
-			Application.LoadLevel(0);
+			Application.LoadLevel(2);
 	}
 	Debug.Log("HP:"+HP);
 }
