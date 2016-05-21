@@ -1,19 +1,29 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-
+Project("{F912B8E9-2CB1-4396-A7AE-65D02B84630F}") = "Split and rule", "Assembly-CSharp-firstpass-vs.csproj", "{D79F2DE3-3159-455D-AE8D-ED6D7E857B57}"
+EndProject
+Project("{F912B8E9-2CB1-4396-A7AE-65D02B84630F}") = "Split and rule", "Assembly-CSharp-Editor-vs.csproj", "{6EFB5CDB-954C-8256-A755-41F74EA5F7AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{D79F2DE3-3159-455D-AE8D-ED6D7E857B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79F2DE3-3159-455D-AE8D-ED6D7E857B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79F2DE3-3159-455D-AE8D-ED6D7E857B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79F2DE3-3159-455D-AE8D-ED6D7E857B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EFB5CDB-954C-8256-A755-41F74EA5F7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFB5CDB-954C-8256-A755-41F74EA5F7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFB5CDB-954C-8256-A755-41F74EA5F7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFB5CDB-954C-8256-A755-41F74EA5F7AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																				GlobalSection(MonoDevelopProperties) = preSolution
+																					GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
