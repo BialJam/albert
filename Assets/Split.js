@@ -19,7 +19,7 @@ if (colorex == 100){
 }
 
 
-	if (Input.GetKey("space")){
+	if (Input.GetKey("space")||Input.touchCount > 0){
 		if(side == 0){
 			//if(rot <= 45){
 			//	transform.rotation.z -= 0.04*angleSpeed/Time.deltaTime;
