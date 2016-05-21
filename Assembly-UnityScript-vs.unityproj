@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\PlayerHP.js" />
      <Compile Include="Assets\Scripts\Scorer.js" />
      <Compile Include="Assets\Scripts\Split.js" />
+     <Compile Include="Assets\Scripts\SystemMonetyzacji.js" />
      <Compile Include="Assets\Scripts\WololoMenu.js" />
      <Compile Include="Assets\Scripts\WololoScreen.js" />
      <Compile Include="Assets\Scripts\randomscreeflick.js" />
