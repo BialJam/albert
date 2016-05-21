@@ -5,5 +5,5 @@ function Start () {
 }
 
 function Update () {
-	transform.position.y -= 1*speed/Time.deltaTime;
+	transform.position.y -= 1.5*speed/Time.deltaTime;
 }

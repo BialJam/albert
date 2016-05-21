@@ -25,3 +25,11 @@ Cmd: compileSnippet
   api=5 type=0 insize=1298 outsize=1850 kw= ok=1
 Cmd: compileSnippet
   api=5 type=1 insize=1298 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=1228 outsize=1134 kw= ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=1228 outsize=6 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=1228 outsize=212 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=1228 outsize=162 kw= ok=1

@@ -27,12 +27,15 @@ function Update () {
 	}
 	Debug.Log (Points);
 }
-
+ var Panel : GameObject;
 function OnTriggerStay2D (c : Collider2D){
 	if(c.tag == "Wall"){
 		HP -= 100;
 		if (HP <= 0){
 			GO.SetActive(true);
+			
+			Panel.GetComponent.<UI.Image>().color = new Color(1, 0, 0, 1);
+			
 			yield WaitForSeconds (5);
 			Application.LoadLevel(1);
 		}
