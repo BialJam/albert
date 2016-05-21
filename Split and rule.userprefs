@@ -1,8 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerHP.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DallasBuyer.js">
     <Files>
-      <File FileName="Assets\Scripts\PlayerHP.js" Line="50" Column="2" />
+      <File FileName="Assets\Scripts\SystemMonetyzacji.js" Line="12" Column="59" />
+      <File FileName="Assets\Scripts\PlayerHP.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LOadeer.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DallasBuyer.js" Line="11" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

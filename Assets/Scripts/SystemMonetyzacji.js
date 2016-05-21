@@ -6,9 +6,14 @@ var intCoins : int;
 
 function OnTriggerEnter2D(c:Collider2D){
 	if(c.tag == "Player"){
-		//readStufFromFile();
-		intCoins = parseInt(Coins) +1 ;
-		Coins = intCoins.ToString();
-		//writeStuffToFile();
+		
+		intCoins = parseInt(System.IO.File.ReadAllText("SANDR/save.txt")) +1 ;
+		System.IO.File.WriteAllText("SANDR/save.txt", intCoins.ToString());
+		Debug.Log(System.IO.File.ReadAllText("SANDR/save.txt"));
 	}
+}
+
+function IleHajsow(){
+	intCoins = parseInt(System.IO.File.ReadAllText("SANDR/save.txt"));
+	Debug.Log(System.IO.File.ReadAllText("SANDR/save.txt"));
 }

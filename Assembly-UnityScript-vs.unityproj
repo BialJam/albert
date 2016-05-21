@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\DallasBuyer.js" />
+     <Compile Include="Assets\Scripts\LOadeer.js" />
      <Compile Include="Assets\Scripts\MapMove.js" />
      <Compile Include="Assets\Scripts\PlayerHP.js" />
      <Compile Include="Assets\Scripts\Scorer.js" />
