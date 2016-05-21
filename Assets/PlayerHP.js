@@ -3,6 +3,7 @@ import UnityEngine.UI;
 var HP = 100;
 var GO : GameObject;
 var Win : GameObject;
+var JackPot : GameObject;
 
 var scorer : Text;
 
@@ -21,6 +22,9 @@ function Timur(a : int){
 function Update () {
 	Timur(10);
 	scorer.text = Points.ToString();
+	if (Points % 10000 == 0){
+		JackPot.SetActive(!JackPot.activeSelf);
+	}
 	Debug.Log (Points);
 }
 

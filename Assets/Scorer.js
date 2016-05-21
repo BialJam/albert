@@ -5,7 +5,7 @@ var score : int;
 var a = 0;
 
 function Start() {
-scorer = GetComponent.<Text>();
+scorer = GetComponent.<UI.Text>();
 }
 
 function Update () {
