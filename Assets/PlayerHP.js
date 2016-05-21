@@ -1,10 +1,12 @@
 ﻿#pragma strict
+import UnityEngine.UI;
 var HP = 100;
 var GO : GameObject;
 var Win : GameObject;
 
-function Start () {
+var scorer : Text;
 
+function Start () {
 }
 var Points : int;
 var c = 0;
@@ -18,6 +20,7 @@ function Timur(a : int){
 
 function Update () {
 	Timur(10);
+	scorer.text = Points.ToString();
 	Debug.Log (Points);
 }
 
@@ -27,14 +30,14 @@ function OnTriggerStay2D (c : Collider2D){
 		if (HP <= 0){
 			GO.SetActive(true);
 			yield WaitForSeconds (5);
-			Application.LoadLevel(0);
+			Application.LoadLevel(1);
 		}
 	}
 	
 	if(c.name == "finish"){
 			Win.SetActive(true);
 			yield WaitForSeconds (5);
-			Application.LoadLevel(2);
+			Application.LoadLevel(3);
 	}
 	Debug.Log("HP:"+HP);
 }

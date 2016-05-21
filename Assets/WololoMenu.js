@@ -11,10 +11,14 @@ var amount = 1.0f; //how much it shakes
  
 function Update()
 {
+if(Panel1){
   Panel1.transform.position.x = Mathf.Sin(Time.time * speed);
   Panel1.transform.position.y = Mathf.Sin(Time.time * speed);
+ }
+ if(Panel2){
   Panel2.transform.position.x = -Mathf.Sin(Time.time * speed);
   Panel2.transform.position.y = -Mathf.Sin(Time.time * speed);
+  }
 }
 
 function loadLevel(nr : int){
